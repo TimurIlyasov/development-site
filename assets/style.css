@@ -1,0 +1,8 @@
+body {
+  background-color: #0f0e17;
+  background-image: url('images/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;              /* растягивает на весь экран */
+  background-position: center center;  /* центрирует */
+  background-attachment: fixed;        /* фон не скроллится вместе со страницей */
+}

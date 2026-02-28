@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/images/fox-logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiny Fox Studio 🦊</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background-color: #0f0e17;
+      background-image: url('assets/images/bg.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      color: #fffffe;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem;
+      max-width: 680px;
+    }
+
+    .logo {
+      font-size: 5rem;
+      margin-bottom: 1rem;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      color: #ff8906;
+      letter-spacing: -1px;
+      margin-bottom: 0.5rem;
+    }
+
+    .tagline {
+      font-size: 1.1rem;
+      color: #a7a9be;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+
+    .tags {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .tag {
+      background: #1a1a2e;
+      border: 1px solid #ff8906;
+      color: #ff8906;
+      padding: 0.4rem 1rem;
+      border-radius: 99px;
+      font-size: 0.85rem;
+    }
+
+    .contact {
+      font-size: 0.9rem;
+      color: #a7a9be;
+    }
+
+    .contact a {
+      color: #ff8906;
+      text-decoration: none;
+    }
+
+    .contact a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="logo">🦊</div>
+    <h1>Tiny Fox Studio</h1>
+    <p class="tagline">
+      Создаю игры и прокачиваю мастерство.<br>
+      От прототипов — к полноценным проектам.
+    </p>
+    <div class="tags">
+      <span class="tag">✨ Прототипы</span>
+      <span class="tag">🧪 Механики</span>
+      <span class="tag">🚀 Игры</span>
+      <span class="tag">🎮 Инди</span>
+    </div>
+    <div class="contact">
+      <a href="mailto:me@timurilyasov.ru">me@timurilyasov.ru</a>
+    </div>
+  </div>
+</body>
+</html>
